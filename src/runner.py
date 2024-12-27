@@ -8,7 +8,7 @@ def queue_tasks(z, conc):
     _ = q.enqueue_many(
         [
             Queue.prepare_data(
-                "sendreq.send_req", args=("https://dev.syphoon.com/api", "https://www.test.internal", "GET", "", conc), result_ttl=1
+                "sendreq.test_req_perf", args=("https://dev.syphoon.com/api", "https://www.test.internal", "GET", "", conc), result_ttl=1
             )
             for _ in range(z)
         ]
