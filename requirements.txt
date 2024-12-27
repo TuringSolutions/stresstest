@@ -1,0 +1,11 @@
+async-timeout==5.0.1
+certifi==2024.12.14
+charset-normalizer==3.4.1
+click==8.1.8
+dnspython==2.7.0
+idna==3.10
+pymongo==4.10.1
+redis==5.2.1
+requests==2.32.3
+rq==2.1.0
+urllib3==2.3.0
